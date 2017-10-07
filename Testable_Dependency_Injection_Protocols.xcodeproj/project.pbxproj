@@ -15,6 +15,7 @@
 		BE7FA88F1F8898B500D681E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7FA88D1F8898B500D681E9 /* LaunchScreen.storyboard */; };
 		BE7FA89A1F8898B500D681E9 /* Testable_Dependency_Injection_ProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FA8991F8898B500D681E9 /* Testable_Dependency_Injection_ProtocolsTests.swift */; };
 		BE7FA8A51F8898B500D681E9 /* Testable_Dependency_Injection_ProtocolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FA8A41F8898B500D681E9 /* Testable_Dependency_Injection_ProtocolsUITests.swift */; };
+		BE7FA8B41F8899D700D681E9 /* DI_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FA8B31F8899D700D681E9 /* DI_Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BE7FA8A01F8898B500D681E9 /* Testable_Dependency_Injection_ProtocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Testable_Dependency_Injection_ProtocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7FA8A41F8898B500D681E9 /* Testable_Dependency_Injection_ProtocolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testable_Dependency_Injection_ProtocolsUITests.swift; sourceTree = "<group>"; };
 		BE7FA8A61F8898B500D681E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7FA8B31F8899D700D681E9 /* DI_Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DI_Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		BE7FA8801F8898B500D681E9 /* Testable_Dependency_Injection_Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				BE7FA8B21F88991E00D681E9 /* DI */,
 				BE7FA8811F8898B500D681E9 /* AppDelegate.swift */,
 				BE7FA8831F8898B500D681E9 /* ViewController.swift */,
 				BE7FA8851F8898B500D681E9 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				BE7FA8A61F8898B500D681E9 /* Info.plist */,
 			);
 			path = Testable_Dependency_Injection_ProtocolsUITests;
+			sourceTree = "<group>";
+		};
+		BE7FA8B21F88991E00D681E9 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FA8B31F8899D700D681E9 /* DI_Protocol.swift */,
+			);
+			name = DI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				BE7FA8841F8898B500D681E9 /* ViewController.swift in Sources */,
 				BE7FA88A1F8898B500D681E9 /* Testable_Dependency_Injection_Protocols.xcdatamodeld in Sources */,
+				BE7FA8B41F8899D700D681E9 /* DI_Protocol.swift in Sources */,
 				BE7FA8821F8898B500D681E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
