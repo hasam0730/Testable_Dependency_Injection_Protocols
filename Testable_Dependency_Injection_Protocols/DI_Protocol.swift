@@ -16,3 +16,9 @@ struct User {
     }
 }
 
+class AuthenticationClient {
+    func login(username: String, password: String, onCompletion: @escaping(User?, Error?)) {
+        
+    }
+}
+
